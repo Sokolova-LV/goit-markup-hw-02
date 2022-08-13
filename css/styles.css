@@ -1,0 +1,230 @@
+:root {
+    --text-color: #757575;
+    --article-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #ffffff;
+    --black-color: #000000;
+
+    --main-bg: #FFFFFF;
+    --dark-bg: #2F303A;
+    --gray-bg: #F5F4FA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--text-color);
+    background-color: var(--main-bg);
+    letter-spacing: 0.03em;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+}
+
+.logo-span-black {
+    color: var(--black-color);
+}
+
+.logo-span-white {
+    color: var(--white-color);
+}
+
+.logo-span-black:hover,
+.logo-span-black:focus,
+.logo-span-white:hover,
+.logo-span-white:focus {
+    color: var(--accent-color);
+}
+
+.nav {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--article-color);
+}
+
+.nav-current {
+    color: var(--accent-color);
+}
+
+.nav:hover, 
+.nav:focus {
+    color: var(--accent-color);
+}
+
+.contacts {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--accent-color);
+}
+
+.contacts-map {
+    font-style: normal;
+    line-height: 1.71;
+    color: var(--white-color);
+}
+
+.contacts-map:hover,
+.contacts-map:focus {
+    color: var(--accent-color);
+}
+
+.contacts-link {
+    font-style: normal;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+footer {
+    background-color: var(--dark-bg);
+}
+
+.hero {
+    width: 1600px;
+    height: 600px;
+    background-color: var(--dark-bg);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.btn-first {
+    position: absolute;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    align-items: center;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+}
+
+.btn-first:hover,
+.btn-first:focus {
+    color: #188CE8;
+}
+
+.benefits-article {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--article-color);
+}
+
+.benefits-text {
+    line-height: 1.71;
+    color: var(--text-color);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--article-color);
+}
+
+.our-team {
+    background-color: var(--gray-bg);
+}
+
+.team-card {
+    background-color: var(--main-bg);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--article-color);
+}
+
+.team-position {
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--text-color);
+}
+
+.btn-second {
+    background: var(--gray-bg);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--article-color);
+}
+
+.btn-second:hover,
+.btn-second:focus {
+    background: var(--accent-color);    
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.product-article {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--article-color);
+}
+
+.product-text {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--text-color);
+}
